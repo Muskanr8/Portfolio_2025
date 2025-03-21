@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Parser AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            height: 100vh; /* Full viewport height */
+        }
+        .text {
+            flex: 1;
+            display: flex;
+            flex-direction: column; /* Stack heading and paragraph */
+            justify-content: center;
+            align-items: flex-start; /* Align text to the left */
+            padding: 40px;
+            background: #000
+        }
+        .text h1 {
+            margin-bottom: 10px; /* Space between heading and paragraph */
+        }
+        .image {
+            flex: 1;
+        }
+        .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire right side */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <header style="text-align: center; margin-bottom: 20px;">
+                <h1 style="font-size: 2em; color: #ff05f7;">Resume Parser AI</h1>
+            </header>
+    
+            <section style="margin-bottom: 30px;">
+                <h2 style="text-align: left; font-size: 1.5em; color: #ffffff; margin-bottom: 10px;">Project Description</h2>
+                <p style="text-align: left; font-size: 1.1em; line-height: 1.5em; color: #9ca3af;">Built an AI tool to parse resumes and extract key information using Python and Flask. Focused on creating an intuitive user interface and backend logic for parsing.</p>
+                <br>
+                <h2 style="text-align: left; font-size: 1.5em; color: #ffffff; margin-bottom: 10px;">Tech Stack</h2>
+                            <p style="text-align: left; font-size: 1.1em; line-height: 1.5em; color: #9ca3af;">Backend: Python (Flask)<br>
+                    Machine Learning: Natural Language Processing (NLP)<br>
+                    Frontend: HTML, CSS</p>
+                <br>
+                <h2 style="text-align: left; font-size: 1.5em; color: #ffffff; margin-bottom: 10px;">Key Features</h2>
+                <p style="text-align: left; font-size: 1.1em; line-height: 1.5em; color: #9ca4af;">Extracts essential information from resumes in various formats.<br> User-friendly interface to upload resumes and view parsed data.<br>
+                    Used NLP techniques to identify key sections of resumes.
+                    </p>
+                <br>
+            </section>
+        </div>
+        <div class="image">
+            <img src="assets/project-1.jpg" alt="project" />
+        </div>
+    </div>
+</body>
+</html>
